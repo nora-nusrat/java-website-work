@@ -5,6 +5,7 @@
     outline: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    /*overflow-x: hidden;*/
 }
 ul,ol{
     list-style: none;
@@ -21,10 +22,17 @@ h1,h2,h3,h4,h5,h6,p{
 /*all common css ends*/
 
 /*all header part css starts*/
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 .nav-link{
    padding: 0px 30px !important;
    font-size: 18px;
    transition: .4s;
+   color: #fff;
 }
 .nav-link:hover{
     color: #6A4DF4;
@@ -36,3 +44,225 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 10px;
 }
 /*all header part css ends*/
+
+/*all banner part css starts*/
+#bannerPart{
+    
+    background: url(../images/agenc-Banner\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerOverly{
+    padding-top: 315px;
+    padding-bottom: 175px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.bannerContent h1{
+    font-weight: 800;
+    font-size: 73px;
+    line-height: 120%;
+    padding-bottom: 60px;
+}
+.bannerContent p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 221px;
+    margin-bottom: 45px;
+}
+.bannerContent a{
+    padding: 20px 40px;
+    background-color: #6A4DF4;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/*all banner part css ends*/
+
+/*Counter Part starts*/
+#counterPart{
+    padding: 150px 0;
+   
+}
+.extraCount{
+    padding: 90px 0;
+    background-color: #E0FFF9;
+    border-radius: 20px;
+}
+.counterLeft{
+    padding-left: 45px;
+}
+.counterLeft h4{
+   padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.counterLeft h3{
+    padding-right: 290px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.counterIteam h3{
+    font-weight: 700;
+    font-size: 50px;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.counterIteam h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: #151515;
+}
+/*counter part css ends*/
+
+/*service part css starts*/
+#servicePart{
+    padding-bottom: 150px;
+}
+.serviceHead h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+}
+.serviceHead p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    line-height: 24px;
+}
+.serviceIteam{
+    padding: 55px;
+    transition: .4s;
+    border-radius: 20px;
+}
+.serviceText h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.serviceText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+}
+.serviceIteam:hover {
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  
+}
+/*service part css ends*/
+
+/* recent work css starts*/
+#recentPart{
+   padding-top: 30px;
+   padding-bottom: 20px;
+   background-color: #f3f3f3;
+}
+.recentWork h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #151515;
+}
+.recentWork p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    line-height: 24px;
+}
+.recentIteam{
+    
+    transition: .4s;
+}
+.recentText{
+    padding: 55px;
+}
+.recentText h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.recentText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+}
+.recentIteam:hover{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+}
+/*recent work css ends*/
+
+/*Agency Part css Starts*/
+#agencyPart{
+    padding: 100px 0;
+}
+.agencIteam{
+   margin-bottom: 20px;
+}
+.agencyH h3{
+    padding: 0 72px;
+    line-height: 50px;
+}
+.agencyH p {
+    padding: -2px 0px;
+    line-height: 26px;
+}
+.agencyText h3{
+    padding: 12px 0;
+    font-weight: 700;
+    line-height: auto;
+}
+.agencyText p{
+    line-height: 26px;
+    font-weight: 400;
+    color: #737373;
+    font-size: 16px;
+}
+/*Agency Part css Ends*/
+
+/*Client Part CSS Starts*/
+#clientPart{
+    padding: 100px 0;
+}
+.clientH h3{
+    padding: 0 70px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.agencyH p{
+    padding: -2px 0px;
+    line-height: 26px;
+}
+.clientIteam{
+    position: relative;
+}
+.clientIcon{
+    font-size: 40px;
+    color: #8072c9;
+}
+.para{
+    margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*Client Part CSS Ends*/
+
